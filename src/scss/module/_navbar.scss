@@ -1,0 +1,24 @@
+nav {
+    background-color: rgba(83, 83, 83, 0.596);
+    position: absolute;
+    ul{
+        padding: 0;
+        margin: 0 3%;
+        margin-top: 1%;
+        width: 100%;
+        li{
+            border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+            border-top: 1px solid rgba(255, 255, 255, 0.5);
+            list-style: none;
+            padding: 15px 7%;
+            font-size: small;
+            
+            a{
+                color: white;
+            }
+        }
+        li:hover{
+            background-color: rgb(196,45,64) ;
+        }
+    }
+}
