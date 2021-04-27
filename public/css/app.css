@@ -1,68 +1,9 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
-.banner {
-  background-image: url(../images/banner1.jpg);
-  background-size: cover;
-  height: 925px;
-}
-.banner h1 {
-  margin-top: 20%;
-  text-align: center;
-  font-family: "Courgette", cursive;
-  font-size: 400%;
-}
-.banner h1 span {
-  font-size: 120%;
-}
-.banner h1 span:nth-child(2) {
-  color: #c42d40;
-}
-.banner div {
-  text-align: center;
-}
-.banner div button {
-  border-radius: 50px;
-  border: none;
-  padding: 10px 25px;
-  margin: 3% 1%;
-}
-.banner div button:last-of-type {
-  background-color: #c42d40;
-  color: white;
-}
-
-nav {
-  background-color: rgba(83, 83, 83, 0.596);
-  position: absolute;
-}
-nav ul {
-  padding: 0;
-  margin: 0 3%;
-  margin-top: 1%;
-  width: 100%;
-}
-nav ul li {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  list-style: none;
-  padding: 15px 7%;
-  font-size: small;
-}
-nav ul li a {
-  color: white;
-}
-nav ul li:hover {
-  background-color: #c42d40;
-}
-
-body {
-  font-family: "Courgette", cursive;
-}
-
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 .fa,
 .fas,
 .far,
@@ -6134,8 +6075,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url("../../node_modules/@fortawesome:fontawesome-free/webfonts/fa-solid-900.eot");
-  src: url("../../node_modules/@fortawesome:fontawesome-free/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../../node_modules/@fortawesome:fontawesome-free/webfonts/fa-solid-900.woff2") format("woff2"), url("../../node_modules/@fortawesome:fontawesome-free/webfonts/fa-solid-900.woff") format("woff"), url("../../node_modules/@fortawesome:fontawesome-free/webfonts/fa-solid-900.ttf") format("truetype"), url("../../node_modules/@fortawesome:fontawesome-free/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+  src: url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot");
+  src: url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2") format("woff2"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff") format("woff"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf") format("truetype"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.svg#fontawesome") format("svg");
 }
 .fa,
 .fas {
@@ -6152,8 +6093,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../../node_modules/@fortawesome:fontawesome-free/webfonts/fa-brands-400.eot");
-  src: url("../../node_modules/@fortawesome:fontawesome-free/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../../node_modules/@fortawesome:fontawesome-free/webfonts/fa-brands-400.woff2") format("woff2"), url("../../node_modules/@fortawesome:fontawesome-free/webfonts/fa-brands-400.woff") format("woff"), url("../../node_modules/@fortawesome:fontawesome-free/webfonts/fa-brands-400.ttf") format("truetype"), url("../../node_modules/@fortawesome:fontawesome-free/webfonts/fa-brands-400.svg#fontawesome") format("svg");
+  src: url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot");
+  src: url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2") format("woff2"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff") format("woff"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf") format("truetype"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.svg#fontawesome") format("svg");
 }
 .fab {
   font-family: "Font Awesome 5 Brands";
@@ -6169,8 +6110,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../../node_modules/@fortawesome:fontawesome-free/webfonts/fa-regular-400.eot");
-  src: url("../../node_modules/@fortawesome:fontawesome-free/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../../node_modules/@fortawesome:fontawesome-free/webfonts/fa-regular-400.woff2") format("woff2"), url("../../node_modules/@fortawesome:fontawesome-free/webfonts/fa-regular-400.woff") format("woff"), url("../../node_modules/@fortawesome:fontawesome-free/webfonts/fa-regular-400.ttf") format("truetype"), url("../../node_modules/@fortawesome:fontawesome-free/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+  src: url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.eot");
+  src: url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2") format("woff2"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff") format("woff"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf") format("truetype"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.svg#fontawesome") format("svg");
 }
 .far {
   font-family: "Font Awesome 5 Free";
@@ -16105,6 +16046,149 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+#carouselExampleIndicators {
+  position: relative;
+}
+#carouselExampleIndicators .banner {
+  background-image: url(../images/banner1.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.726);
+  height: 925px;
+}
+#carouselExampleIndicators .txtBanner {
+  position: absolute;
+  top: 15%;
+  right: 24%;
+}
+#carouselExampleIndicators .txtBanner h1 {
+  margin-top: 20%;
+  text-align: center;
+  font-family: "Courgette", cursive;
+  font-size: 400%;
+}
+#carouselExampleIndicators .txtBanner h1 span {
+  font-size: 120%;
+}
+#carouselExampleIndicators .txtBanner h1 span:nth-child(2) {
+  color: #c42d40;
+}
+#carouselExampleIndicators .txtBanner div {
+  text-align: center;
+}
+#carouselExampleIndicators .txtBanner div button {
+  border-radius: 50px;
+  border: none;
+  padding: 10px 25px;
+  margin: 3% 1%;
+}
+#carouselExampleIndicators .txtBanner div button:last-of-type {
+  background-color: #c42d40;
+  color: white;
+}
+
+.chef {
+  background-color: black;
+  height: 600px;
+}
+
+.menu {
+  background-image: url(../../../public/images/main_bg.jpg);
+  height: 1400px;
+  position: absolute;
+}
+.menu .boxMenu {
+  background-color: white;
+  height: 95%;
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
+  text-align: center;
+}
+.menu .boxMenu h1 {
+  font-family: "Courgette", cursive;
+  margin-bottom: 0;
+  padding-top: 3%;
+}
+.menu .boxMenu h1 span {
+  color: #c42d40;
+}
+.menu .boxMenu .maSidBar {
+  background-color: white;
+  height: 50%;
+  width: 100%;
+  margin: auto;
+  margin-top: 3%;
+  text-align: center;
+}
+.menu .boxMenu .maSidBar .col-3 div .nav-link {
+  color: black;
+  font-family: "Courgette", cursive;
+  font-size: 24px;
+}
+.menu .boxMenu .maSidBar .col-3 div .nav-link i {
+  color: rgba(167, 167, 167, 0.555);
+}
+.menu .boxMenu .maSidBar .col-3 div .nav-link i.active {
+  color: #c42d40;
+}
+.menu .boxMenu .maSidBar .col-3 div .nav-link.active {
+  color: black;
+  background-color: white;
+  border-right: solid #c42d40 4px;
+  border-radius: 0;
+}
+.menu .boxMenu .maSidBar .ficheMenu .contenantMenu .listMenu {
+  width: 450px;
+  justify-content: space-evenly;
+  margin: 4% 0;
+}
+.menu .boxMenu .maSidBar .ficheMenu .contenantMenu .listMenu img {
+  height: 110px;
+  border: 5px rgba(128, 128, 128, 0.253) solid;
+}
+.menu .boxMenu .maSidBar .ficheMenu .contenantMenu .listMenu .menuText {
+  width: 40%;
+}
+.menu .boxMenu .maSidBar .ficheMenu .contenantMenu .listMenu .menuText h3 {
+  font-size: 15px;
+  text-align: left;
+}
+.menu .boxMenu .maSidBar .ficheMenu .contenantMenu .listMenu .menuText p {
+  margin: 0;
+  font-size: 13px;
+  text-align: left;
+}
+.menu .boxMenu .maSidBar .ficheMenu .contenantMenu .listMenu #price {
+  background-color: #e6e6e6;
+  color: #c42d40;
+  height: 100%;
+  width: 10%;
+}
+
+nav {
+  background-color: rgba(83, 83, 83, 0.596);
+  position: absolute;
+}
+nav ul {
+  padding: 0;
+  margin: 0 3%;
+  margin-top: 1%;
+  width: 100%;
+}
+nav ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  list-style: none;
+  padding: 15px 7%;
+  font-size: small;
+}
+nav ul li a {
+  color: white;
+}
+nav ul li:hover {
+  background-color: #c42d40;
 }
 
 /*# sourceMappingURL=app.css.map */

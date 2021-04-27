@@ -1,6 +1,7 @@
-@import "./module/style.scss";
 @import "./variable";
 @import "./icon";
 @import "./font";
 
-@import "../../node_modules/bootstrap/scss/bootstrap.scss"
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./module/style.scss";
