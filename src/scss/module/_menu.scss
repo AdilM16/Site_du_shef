@@ -1,13 +1,13 @@
 .menu{
     background-image: url(../../../public/images/main_bg.jpg);
-    height: 1400px;
-    position: absolute;
+    height: 1500px;
+    padding-top: 5%;
     .boxMenu{
         background-color: white;
         height: 95%;
         width: 80%;
-        margin: auto;
-        margin-top: 3%;
+        margin-left:auto;
+        margin-right: auto;
         text-align: center;
         h1{
             font-family: 'Courgette', cursive;
@@ -34,7 +34,7 @@
                             color: rgba(167, 167, 167, 0.555) ;
                         }
                         i.active{
-                            color:rgb(196,45,64)
+                            color:rgb(196,45,64);
                         }
                     }
                     .nav-link.active{

@@ -1,4 +1,32 @@
 .chef{
     background-color: black;
-    height: 600px;
+    height: 650px;
+    .titleChef{
+        h1{
+            font-family: 'Courgette',cursive;
+            padding-top: 5%;
+            color: white;
+        }
+        span{
+            color: rgb(196,45,64);
+        }
+    }
+    .boxChef{
+        color: white;
+        text-align: center;
+        .nomChef{
+            border-top:1px solid rgba(255, 255, 255, 0.5);
+        }
+        .infobull{
+            transform: scale(0);
+            position: absolute;
+            background-color:rgb(196,45,64) ;
+            border-radius: 5px;
+            padding: 10px;
+            top: 370%;
+        }
+        .nomChef:hover{
+            transform: scale(1);
+        }
+    }
 }

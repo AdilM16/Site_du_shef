@@ -1,0 +1,18 @@
+.book{
+    background-image: url(../../../public/images/main_bg.jpg);
+    height: 2000px;
+    padding-top: 5%;
+    .blocBlanc{
+        background-color: white;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        height: 95%;
+        h1{
+            font-family: 'Courgette',cursive;
+            span{
+                color: rgb(196,45,64);
+            }
+        }
+    }
+}

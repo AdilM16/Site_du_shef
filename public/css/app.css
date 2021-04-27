@@ -16090,20 +16090,46 @@ h3 {
 
 .chef {
   background-color: black;
-  height: 600px;
+  height: 650px;
+}
+.chef .titleChef h1 {
+  font-family: "Courgette", cursive;
+  padding-top: 5%;
+  color: white;
+}
+.chef .titleChef span {
+  color: #c42d40;
+}
+.chef .boxChef {
+  color: white;
+  text-align: center;
+}
+.chef .boxChef .nomChef {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+.chef .boxChef .infobull {
+  transform: scale(0);
+  position: absolute;
+  background-color: #c42d40;
+  border-radius: 5px;
+  padding: 10px;
+  top: 370%;
+}
+.chef .boxChef .nomChef:hover {
+  transform: scale(1);
 }
 
 .menu {
   background-image: url(../../../public/images/main_bg.jpg);
-  height: 1400px;
-  position: absolute;
+  height: 1500px;
+  padding-top: 5%;
 }
 .menu .boxMenu {
   background-color: white;
   height: 95%;
   width: 80%;
-  margin: auto;
-  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 .menu .boxMenu h1 {
@@ -16189,6 +16215,25 @@ nav ul li a {
 }
 nav ul li:hover {
   background-color: #c42d40;
+}
+
+.book {
+  background-image: url(../../../public/images/main_bg.jpg);
+  height: 2000px;
+  padding-top: 5%;
+}
+.book .blocBlanc {
+  background-color: white;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 95%;
+}
+.book .blocBlanc h1 {
+  font-family: "Courgette", cursive;
+}
+.book .blocBlanc h1 span {
+  color: #c42d40;
 }
 
 /*# sourceMappingURL=app.css.map */
