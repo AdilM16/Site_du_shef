@@ -1,14 +1,26 @@
 .menu{
     background-image: url(../../../public/images/main_bg.jpg);
-    height: 1500px;
+    height: 1504px;
     padding-top: 5%;
-    .boxMenu{
+    .boxStory{
         background-color: white;
         height: 95%;
         width: 80%;
         margin-left:auto;
         margin-right: auto;
         text-align: center;
+        .corner1{
+            left:10%;
+        }
+        .corner2{
+            right:10%;
+        }
+        .corner3{
+            left: 10%;
+        }
+        .corner4{
+            right: 10%;
+        }
         h1{
             
             margin-bottom: 0;
@@ -17,6 +29,8 @@
                 color: rgb(196,45,64);
             }
         }
+    }
+    .boxMenu{
         .maSidBar{
             background-color: white;
             height: 50%;

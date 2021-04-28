@@ -1,6 +1,6 @@
 .book{
     background-image: url(../../../public/images/main_bg.jpg);
-    height: 1800px;
+    height: 1774px;
     padding-top: 5%;
     .blocBlanc{
         background-color: white;
@@ -9,6 +9,18 @@
         margin-left: auto;
         height: 95%;
         text-align: center;
+        .corner1{
+            left: 10%;
+        }
+        .corner2{
+            right: 10%;
+        }
+        .corner3{
+            left: 10%;
+        }
+        .corner4{
+            right: 10%;
+        }
         h1{
             span{
                 color: rgb(196,45,64);

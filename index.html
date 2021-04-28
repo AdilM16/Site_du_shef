@@ -52,11 +52,9 @@
         </div>
     </div>
     <section class="menu">
-        <div class="boxMenu border">
-            <img src="./public/images/box-left-top.png" alt="">
-            <img src="./public/images/box-right-top.png" alt="">
-            <img src="./public/images/box-bottom-left.png" alt="">
-            <img src="./public/images/box-bottom_right.png" alt="">
+        <div class="boxStory border">
+            <img src="./public/images/box-left-top.png" alt="" class="corner1 position-absolute start-2">
+            <img src="./public/images/box-right-top.png" alt="" class="corner2 position-absolute">
             <h1><span>OUR</span> Story</h1>
             <img src="./public/images/decoration_line.png" alt="">
             <p class="m-auto w-50 pt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium ut vitae
@@ -67,119 +65,125 @@
                 voluptatibus mollitia! Minus, ipsam. Sapiente autem voluptate sequi voluptatibus modi? Numquam, iusto
                 facere eius hic nesciunt, atque similique assumenda, libero illo perspiciatis voluptate! Labore saepe
                 libero quasi consectetur, reprehenderit nisi, eveniet delectus, placeat et aut id atque expedita!</p>
-            <h1><span>OUR</span> Menu List</h1>
-            <img src="./public/images/decoration_line.png" alt="">
-            <div class="maSidBar row">
-                <div class="col-3">
-                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <a class="nav-link active border-bottom" id="v-pills-breakfast-tab" data-toggle="pill"
-                            href="#v-pills-breakfast" role="tab" aria-controls="v-pills-breakfast"
-                            aria-selected="true"><i class="fas fa-mug-hot d-block fa-3x"></i>BreakFast</a>
-                        <a class="nav-link border-bottom" id="v-pills-breakfast-tab" data-toggle="pill"
-                            href="#v-pills-breakfast" role="tab" aria-controls="v-pills-breakfast"
-                            aria-selected="false"><i class="fas fa-hamburger d-block fa-3x"></i>Lunch</a>
-                        <!-- https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons -->
-                        <a class="nav-link border-bottom" id="v-pills-breakfast-tab" data-toggle="pill"
-                            href="#v-pills-breakfast" role="tab" aria-controls="v-pills-breakfast"
-                            aria-selected="false"><i class="fas fa-cookie-bite d-block fa-3x"></i>Snacks</a>
-                        <a class="nav-link border-bottom" id="v-pills-breakfast-tab" data-toggle="pill"
-                            href="#v-pills-breakfast" role="tab" aria-controls="v-pills-breakfast"
-                            aria-selected="false"><i class="fas fa-utensils d-block fa-3x"></i>Dinner</a>
-                    </div>
-                </div>
-                <div class="ficheMenu">
-                    <div class="tab-content" id="v-pills-tabContent">
-                        <div class="contenantMenu tab-pane fade show active d-flex" id="v-pills-breakfast"
-                            role="tabpanel" aria-labelledby="v-pills-breakfast-tab">
-                            <div>
-                                <div class="listMenu d-flex">
-                                    <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
-                                    <div class="menuText">
-                                        <h3>Deer Steak with Potatoes</h3>
-                                        <p>Welcome to Risotto restaurant website. Here we try to share our</p>
-                                    </div>
-                                    <div id="price">$25</div>
-                                </div>
-                                <div class="listMenu d-flex">
-                                    <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
-                                    <div class="menuText">
-                                        <h3>Deer Steak with Potatoes</h3>
-                                        <p>Welcome to Risotto restaurant website. Here we try to share our</p>
-                                    </div>
-                                    <div id="price">$25</div>
-                                </div>
-                                <div class="listMenu d-flex">
-                                    <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
-                                    <div class="menuText">
-                                        <h3>Deer Steak with Potatoes</h3>
-                                        <p>Welcome to Risotto restaurant website. Here we try to share our</p>
-                                    </div>
-                                    <div id="price">$25</div>
-                                </div>
-                                <div class="listMenu d-flex">
-                                    <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
-                                    <div class="menuText">
-                                        <h3>Deer Steak with Potatoes</h3>
-                                        <p>Welcome to Risotto restaurant website. Here we try to share our</p>
-                                    </div>
-                                    <div id="price">$25</div>
-                                </div>
-                                <div class="listMenu d-flex">
-                                    <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
-                                    <div class="menuText">
-                                        <h3>Deer Steak with Potatoes</h3>
-                                        <p>Welcome to Risotto restaurant website. Here we try to share our</p>
-                                    </div>
-                                    <div id="price">$25</div>
-                                </div>
+                <div class="boxMenu">
+                    <h1><span>OUR</span> Menu List</h1>
+                    <img src="./public/images/decoration_line.png" alt="">
+                    <div class="maSidBar row">
+                        <div class="col-3">
+                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <a class="nav-link active border-bottom" id="v-pills-breakfast-tab" data-toggle="pill"
+                                href="#v-pills-breakfast" role="tab" aria-controls="v-pills-breakfast"
+                                aria-selected="true"><i class="fas fa-mug-hot d-block fa-3x"></i>BreakFast</a>
+                                <a class="nav-link border-bottom" id="v-pills-breakfast-tab" data-toggle="pill"
+                                href="#v-pills-breakfast" role="tab" aria-controls="v-pills-breakfast"
+                                aria-selected="false"><i class="fas fa-hamburger d-block fa-3x"></i>Lunch</a>
+                                <!-- https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons -->
+                                <a class="nav-link border-bottom" id="v-pills-breakfast-tab" data-toggle="pill"
+                                href="#v-pills-breakfast" role="tab" aria-controls="v-pills-breakfast"
+                                aria-selected="false"><i class="fas fa-cookie-bite d-block fa-3x"></i>Snacks</a>
+                                <a class="nav-link border-bottom" id="v-pills-breakfast-tab" data-toggle="pill"
+                                href="#v-pills-breakfast" role="tab" aria-controls="v-pills-breakfast"
+                                aria-selected="false"><i class="fas fa-utensils d-block fa-3x"></i>Dinner</a>
                             </div>
-                            <div>
-                                <div class="listMenu d-flex">
-                                    <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
-                                    <div class="menuText">
-                                        <h3>Deer Steak with Potatoes</h3>
-                                        <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                        </div>
+                        <div class="ficheMenu">
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="contenantMenu tab-pane fade show active d-flex" id="v-pills-breakfast"
+                                role="tabpanel" aria-labelledby="v-pills-breakfast-tab">
+                                <div>
+                                    <div class="listMenu d-flex">
+                                        <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
+                                        <div class="menuText">
+                                            <h3>Deer Steak with Potatoes</h3>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <div id="price">$25</div>
                                     </div>
-                                    <div id="price">$25</div>
+                                    <div class="listMenu d-flex">
+                                        <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
+                                        <div class="menuText">
+                                            <h3>Deer Steak with Potatoes</h3>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <div id="price">$25</div>
+                                    </div>
+                                    <div class="listMenu d-flex">
+                                        <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
+                                        <div class="menuText">
+                                            <h3>Deer Steak with Potatoes</h3>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <div id="price">$25</div>
+                                    </div>
+                                    <div class="listMenu d-flex">
+                                        <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
+                                        <div class="menuText">
+                                            <h3>Deer Steak with Potatoes</h3>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <div id="price">$25</div>
+                                    </div>
+                                    <div class="listMenu d-flex">
+                                        <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
+                                        <div class="menuText">
+                                            <h3>Deer Steak with Potatoes</h3>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <div id="price">$25</div>
+                                    </div>
                                 </div>
-                                <div class="listMenu d-flex">
-                                    <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
-                                    <div class="menuText">
-                                        <h3>Deer Steak with Potatoes</h3>
-                                        <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                <div>
+                                    <div class="listMenu d-flex">
+                                        <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
+                                        <div class="menuText">
+                                            <h3>Deer Steak with Potatoes</h3>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <div id="price">$25</div>
                                     </div>
-                                    <div id="price">$25</div>
-                                </div>
-                                <div class="listMenu d-flex">
-                                    <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
-                                    <div class="menuText">
-                                        <h3>Deer Steak with Potatoes</h3>
-                                        <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                    <div class="listMenu d-flex">
+                                        <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
+                                        <div class="menuText">
+                                            <h3>Deer Steak with Potatoes</h3>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <div id="price">$25</div>
                                     </div>
-                                    <div id="price">$25</div>
-                                </div>
-                                <div class="listMenu d-flex">
-                                    <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
-                                    <div class="menuText">
-                                        <h3>Deer Steak with Potatoes</h3>
-                                        <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                    <div class="listMenu d-flex">
+                                        <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
+                                        <div class="menuText">
+                                            <h3>Deer Steak with Potatoes</h3>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <div id="price">$25</div>
                                     </div>
-                                    <div id="price">$25</div>
-                                </div>
-                                <div class="listMenu d-flex">
-                                    <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
-                                    <div class="menuText">
-                                        <h3>Deer Steak with Potatoes</h3>
-                                        <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                    <div class="listMenu d-flex">
+                                        <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
+                                        <div class="menuText">
+                                            <h3>Deer Steak with Potatoes</h3>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <div id="price">$25</div>
                                     </div>
-                                    <div id="price">$25</div>
+                                    <div class="listMenu d-flex">
+                                        <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="">
+                                        <div class="menuText">
+                                            <h3>Deer Steak with Potatoes</h3>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <div id="price">$25</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <img src="./public/images/decoration_line.png" class="mb-5" alt="">
+            <div>
+                <img src="./public/images/decoration_line.png" class="mt-5" alt="">
+            </div>
+            <img src="./public/images/box-bottom-left.png" alt="" class="corner3 position-absolute">
+            <img src="./public/images/box-bottom_right.png" alt="" class="corner4 position-absolute">
         </div>
     </section>
     <section class="chef">
@@ -232,6 +236,9 @@
     </section>
     <section class="book">
         <div class="blocBlanc border">
+            <img src="./public/images/box-left-top-grey.png" alt="" class="corner1 position-absolute">
+            <img src="./public/images/box-right-top-grey.png" alt="" class="corner2 position-absolute">
+            
             <h1 class="mt-5"><span>BOOK</span> Your Table</h1>
             <img src="./public/images/decoration_line.png" alt="">
             <div class="text-center my-5">
@@ -272,7 +279,11 @@
                         recusandae.</p>
                 </div>
             </div>
-            <button class="mt-4 py-3 px-4 rounded-pill">KNOW MORE</button>
+            <div>
+                <button class="mt-4 py-3 px-4 rounded-pill">KNOW MORE</button>
+            </div>
+            <img src="./public/images/box-bottom-left-grey.png" alt="" class="corner3 position-absolute">
+            <img src="./public/images/box-bottom_right-grey.png" alt="" class="corner4 position-absolute">
         </div>
 
     </section>

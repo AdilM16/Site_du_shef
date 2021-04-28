@@ -16206,10 +16206,10 @@ button {
 
 .menu {
   background-image: url(../../../public/images/main_bg.jpg);
-  height: 1500px;
+  height: 1504px;
   padding-top: 5%;
 }
-.menu .boxMenu {
+.menu .boxStory {
   background-color: white;
   height: 95%;
   width: 80%;
@@ -16217,11 +16217,23 @@ button {
   margin-right: auto;
   text-align: center;
 }
-.menu .boxMenu h1 {
+.menu .boxStory .corner1 {
+  left: 10%;
+}
+.menu .boxStory .corner2 {
+  right: 10%;
+}
+.menu .boxStory .corner3 {
+  left: 10%;
+}
+.menu .boxStory .corner4 {
+  right: 10%;
+}
+.menu .boxStory h1 {
   margin-bottom: 0;
   padding-top: 3%;
 }
-.menu .boxMenu h1 span {
+.menu .boxStory h1 span {
   color: #c42d40;
 }
 .menu .boxMenu .maSidBar {
@@ -16304,7 +16316,7 @@ nav .navMenu li:hover {
 
 .book {
   background-image: url(../../../public/images/main_bg.jpg);
-  height: 1800px;
+  height: 1774px;
   padding-top: 5%;
 }
 .book .blocBlanc {
@@ -16314,6 +16326,18 @@ nav .navMenu li:hover {
   margin-left: auto;
   height: 95%;
   text-align: center;
+}
+.book .blocBlanc .corner1 {
+  left: 10%;
+}
+.book .blocBlanc .corner2 {
+  right: 10%;
+}
+.book .blocBlanc .corner3 {
+  left: 10%;
+}
+.book .blocBlanc .corner4 {
+  right: 10%;
 }
 .book .blocBlanc h1 span {
   color: #c42d40;
