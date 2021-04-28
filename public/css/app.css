@@ -16088,12 +16088,45 @@ h3 {
   color: white;
 }
 
+.blocB .imgBlog img {
+  border-radius: 15px;
+  border: 6px rgba(128, 128, 128, 0.253) solid;
+}
+.blocB .imgBlog div:first-of-type {
+  background-color: #c42d40;
+  width: max-content;
+  color: white;
+  font-size: 23px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  border-radius: 5px;
+  position: absolute;
+  transform: translate(25%, -50%);
+}
+.blocB .imgBlog div:first-of-type span {
+  font-weight: bold;
+}
+.blocB .imgBlog h4 {
+  width: 66%;
+  text-align: left;
+}
+.blocB .imgBlog p {
+  width: 66%;
+  text-align: left;
+}
+
+button {
+  background-color: #c42d40;
+  border: #c42d40;
+  color: white;
+}
+
 .chef {
   background-color: black;
   height: 650px;
 }
 .chef .titleChef h1 {
-  font-family: "Courgette", cursive;
   padding-top: 5%;
   color: white;
 }
@@ -16119,6 +16152,25 @@ h3 {
   transform: scale(1);
 }
 
+.contact {
+  background-image: url(../images/main_bg.jpg);
+  height: 700px;
+}
+.contact span {
+  color: #c42d40;
+}
+.contact .blocRed {
+  width: 33%;
+  height: 500px;
+  margin: auto;
+  background-color: #c42d40;
+  border-radius: 15px;
+}
+.contact .blocRed p {
+  width: 90%;
+  margin: auto;
+}
+
 .menu {
   background-image: url(../../../public/images/main_bg.jpg);
   height: 1500px;
@@ -16133,7 +16185,6 @@ h3 {
   text-align: center;
 }
 .menu .boxMenu h1 {
-  font-family: "Courgette", cursive;
   margin-bottom: 0;
   padding-top: 3%;
 }
@@ -16219,7 +16270,7 @@ nav ul li:hover {
 
 .book {
   background-image: url(../../../public/images/main_bg.jpg);
-  height: 2000px;
+  height: 1800px;
   padding-top: 5%;
 }
 .book .blocBlanc {
@@ -16228,12 +16279,71 @@ nav ul li:hover {
   margin-right: auto;
   margin-left: auto;
   height: 95%;
-}
-.book .blocBlanc h1 {
-  font-family: "Courgette", cursive;
+  text-align: center;
 }
 .book .blocBlanc h1 span {
   color: #c42d40;
+}
+.book .blocBlanc img {
+  text-align: center;
+}
+.book .blocBlanc div p {
+  font-size: 18px;
+}
+.book .blocBlanc div p span {
+  font-size: x-large;
+}
+.book .blocBlanc div .bgVin {
+  background-image: url(../images/book_table_bg.jpg);
+  background-size: cover;
+  height: 600px;
+  border-radius: 15px;
+}
+.book .blocBlanc div .bgVin p {
+  margin: 0;
+}
+.book .blocBlanc div .bgVin .boxInput select {
+  height: 50px;
+  border-radius: 15px;
+}
+.book .blocBlanc div .bgVin .boxInput input {
+  height: 50px;
+  border-radius: 15px;
+}
+.book .blocBlanc div .bgVin button {
+  background-color: #c42d40;
+  border: #c42d40;
+  padding: 13px 30px;
+  margin-top: 6%;
+}
+
+.testimonials {
+  background-image: url(../images/testimonials_background.jpg);
+  background-size: cover;
+  height: 500px;
+}
+.testimonials h1 {
+  color: white;
+}
+.testimonials span {
+  color: #c42d40;
+}
+.testimonials .blocTesti img {
+  height: 200px;
+  border: 6px rgba(255, 255, 255, 0.527) solid;
+}
+.testimonials .blocTesti .blocTxt {
+  border: 1px rgba(255, 255, 255, 0.527) solid;
+}
+.testimonials .blocTesti .blocTxt h5 {
+  margin-bottom: 24px;
+}
+.testimonials .blocTesti .blocTxt p {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Courgette", cursive;
 }
 
 /*# sourceMappingURL=app.css.map */

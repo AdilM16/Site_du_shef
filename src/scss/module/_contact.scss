@@ -1,0 +1,18 @@
+.contact{
+    background-image: url(../images/main_bg.jpg);
+    height: 700px;
+    span{
+        color:rgb(196,45,64);
+    }
+    .blocRed{
+        width: 33%;
+        height: 500px;
+        margin: auto;
+        background-color: rgb(196,45,64);
+        border-radius:15px;
+        p{
+            width: 90%;
+            margin: auto;
+        }
+    }
+}

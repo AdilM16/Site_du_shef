@@ -1,6 +1,6 @@
 .book{
     background-image: url(../../../public/images/main_bg.jpg);
-    height: 2000px;
+    height: 1800px;
     padding-top: 5%;
     .blocBlanc{
         background-color: white;
@@ -8,11 +8,49 @@
         margin-right: auto;
         margin-left: auto;
         height: 95%;
+        text-align: center;
         h1{
-            font-family: 'Courgette',cursive;
             span{
                 color: rgb(196,45,64);
             }
         }
+        img{
+            text-align: center;
+        }
+        div{
+            
+            p{
+                font-size: 18px;
+                span{
+                    font-size: x-large;
+                }
+            }
+            .bgVin{
+                background-image: url(../images/book_table_bg.jpg);
+                background-size: cover;
+                height: 600px;
+                border-radius: 15px;
+                p{
+                    margin: 0;
+                }
+                .boxInput{
+                    select{
+                        height: 50px;
+                        border-radius:15px;
+                    }
+                    input{
+                        height: 50px;
+                        border-radius: 15px;
+                    }
+                }
+                button{
+                    background-color: rgb(196,45,64);;
+                    border: rgb(196,45,64);
+                    padding: 13px 30px;
+                    margin-top: 6%;
+                }
+            }
+        }
+        
     }
 }

@@ -1,0 +1,38 @@
+.blocB{
+    .imgBlog{
+        img{
+            border-radius: 15px;
+            border: 6px rgba(128, 128, 128, 0.253) solid;
+        }
+        div:first-of-type{
+            background-color: rgb(196,45,64);
+            width:max-content;
+                    
+            color:white;
+            font-size: 23px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 25px;
+            border-radius: 5px;
+            position: absolute;
+            transform: translate(25%,-50%);
+            span{
+                font-weight: bold;
+            }
+        }
+        h4{
+            width: 66%;
+            text-align: left;
+        }
+        p{
+            width: 66%;
+            text-align: left;
+        }
+    }
+}
+button{
+    background-color:rgb(196,45,64);
+    border: rgb(196,45,64);
+    color: white;
+            
+}

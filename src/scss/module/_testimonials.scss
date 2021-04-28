@@ -1,0 +1,28 @@
+.testimonials{
+    background-image: url(../images/testimonials_background.jpg);
+    background-size: cover;
+    height: 500px;
+    h1{
+        color: white;
+    }
+    span{
+    color: rgb(196,45,64);
+    }
+    .blocTesti{
+        
+        img{
+            height: 200px;
+            border: 6px rgba(255, 255, 255, 0.527) solid;
+            
+        }
+        .blocTxt{
+            border: 1px rgba(255, 255, 255, 0.527) solid;
+            h5{
+                margin-bottom: 24px;
+            }
+            p{
+                margin: 0;
+            }
+        }
+    }
+}
