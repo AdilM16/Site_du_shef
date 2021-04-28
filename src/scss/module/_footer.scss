@@ -1,0 +1,29 @@
+footer {
+    background-image: url(../images/footer_background.jpg);
+    height: 350px;
+    .about{
+        width: 35%;
+        
+    }
+    .insta{
+        width: 30%;
+        
+        img{
+            height: 70px;
+            margin: 2% 1%;
+        }
+    }
+    .tag{
+        width: 35%;
+        button{
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            font-size: 15px;
+            background-color: rgb(196,45,64);
+            border-radius: 15px;
+            border:1px white solid;
+            padding: 2% 4%;
+            margin: 0 4% 4% 0
+        }
+    }
+}

@@ -4,6 +4,7 @@
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 .fa,
 .fas,
 .far,
@@ -16169,6 +16170,34 @@ button {
 .contact .blocRed p {
   width: 90%;
   margin: auto;
+}
+
+footer {
+  background-image: url(../images/footer_background.jpg);
+  height: 350px;
+}
+footer .about {
+  width: 35%;
+}
+footer .insta {
+  width: 30%;
+}
+footer .insta img {
+  height: 70px;
+  margin: 2% 1%;
+}
+footer .tag {
+  width: 35%;
+}
+footer .tag button {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 15px;
+  background-color: #c42d40;
+  border-radius: 15px;
+  border: 1px white solid;
+  padding: 2% 4%;
+  margin: 0 4% 4% 0;
 }
 
 .menu {
