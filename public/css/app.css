@@ -16055,7 +16055,7 @@ h3 {
   background-image: url(../images/banner1.jpg);
   background-size: cover;
   background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.726);
+  background-color: rgba(0, 0, 0, 0.8);
   height: 925px;
 }
 #carouselExampleIndicators .txtBanner {
@@ -16083,6 +16083,10 @@ h3 {
   border: none;
   padding: 10px 25px;
   margin: 3% 1%;
+}
+#carouselExampleIndicators .txtBanner div button:first-of-type {
+  background-color: white;
+  color: black;
 }
 #carouselExampleIndicators .txtBanner div button:last-of-type {
   background-color: #c42d40;
@@ -16172,24 +16176,24 @@ button {
   margin: auto;
 }
 
-footer {
+.bg_footer {
   background-image: url(../images/footer_background.jpg);
   height: 350px;
 }
-footer .about {
+.bg_footer .about {
   width: 35%;
 }
-footer .insta {
+.bg_footer .insta {
   width: 30%;
 }
-footer .insta img {
+.bg_footer .insta img {
   height: 70px;
   margin: 2% 1%;
 }
-footer .tag {
+.bg_footer .tag {
   width: 35%;
 }
-footer .tag button {
+.bg_footer .tag button {
   font-family: "Roboto", sans-serif;
   color: white;
   font-size: 15px;
@@ -16274,26 +16278,27 @@ footer .tag button {
 }
 
 nav {
-  background-color: rgba(83, 83, 83, 0.596);
-  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
 }
-nav ul {
+nav .navMenu {
   padding: 0;
-  margin: 0 3%;
-  margin-top: 1%;
-  width: 100%;
+  width: 45%;
+  justify-content: center;
+  border-top: solid white 1px;
+  border-bottom: solid white 1px;
+  margin-top: 35px;
 }
-nav ul li {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
+nav .navMenu li {
   list-style: none;
-  padding: 15px 7%;
-  font-size: small;
+  width: 90%;
+  height: 60px;
+  padding-top: 18px;
 }
-nav ul li a {
+nav .navMenu li a {
+  text-decoration: none;
   color: white;
 }
-nav ul li:hover {
+nav .navMenu li:hover {
   background-color: #c42d40;
 }
 
@@ -16368,6 +16373,10 @@ nav ul li:hover {
   margin-bottom: 24px;
 }
 .testimonials .blocTesti .blocTxt p {
+  margin: 0;
+}
+
+body {
   margin: 0;
 }
 

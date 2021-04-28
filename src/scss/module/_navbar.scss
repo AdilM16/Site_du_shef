@@ -1,19 +1,19 @@
-nav {
-    background-color: rgba(83, 83, 83, 0.596);
-    position: absolute;
-    ul{
+nav{
+    background-color: rgba(0, 0, 0, 0.8);
+    .navMenu{
         padding: 0;
-        margin: 0 3%;
-        margin-top: 1%;
-        width: 100%;
+        width: 45%;
+        justify-content: center;
+        border-top: solid white 1px;
+        border-bottom: solid white 1px;
+        margin-top: 35px;
         li{
-            border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-            border-top: 1px solid rgba(255, 255, 255, 0.5);
             list-style: none;
-            padding: 15px 7%;
-            font-size: small;
-            
+            width: 90%;
+            height: 60px;
+            padding-top:18px;
             a{
+                text-decoration: none;
                 color: white;
             }
         }
