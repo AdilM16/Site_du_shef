@@ -16,17 +16,30 @@
         text-align: center;
         .nomChef{
             border-top:1px solid rgba(255, 255, 255, 0.5);
+            position: relative;
         }
-        .infobull{
-            transform: scale(0);
+        .nomChef::before,
+        .nomChef::after{
+            --scale:0;
             position: absolute;
-            background-color:rgb(196,45,64) ;
-            border-radius: 5px;
-            padding: 10px;
-            top: 370%;
+            top: -1.9rem;
+            left:50%;
+            transform: translateX(-50%) translateY(-100%) scale(var(--scale));
+            transition: 250ms transform;
         }
-        .nomChef:hover{
-            transform: scale(1);
+        .nomChef::before{
+            content: attr(data-tooltip);
+            color: white;
+            padding: .5rem;
+            border-radius: .3rem;
+            text-align: center;
+            height: max-content;
+            width: max-content;
+            width: 100%;
+            background: rgb(196,45,64);
+        }
+        .nomChef:hover::before{
+            --scale:1;
         }
     }
 }

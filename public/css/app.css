@@ -16144,17 +16144,30 @@ button {
 }
 .chef .boxChef .nomChef {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
+  position: relative;
 }
-.chef .boxChef .infobull {
-  transform: scale(0);
+.chef .boxChef .nomChef::before,
+.chef .boxChef .nomChef::after {
+  --scale:0;
   position: absolute;
-  background-color: #c42d40;
-  border-radius: 5px;
-  padding: 10px;
-  top: 370%;
+  top: -1.9rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(-100%) scale(var(--scale));
+  transition: 250ms transform;
 }
-.chef .boxChef .nomChef:hover {
-  transform: scale(1);
+.chef .boxChef .nomChef::before {
+  content: attr(data-tooltip);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  text-align: center;
+  height: max-content;
+  width: max-content;
+  width: 100%;
+  background: #c42d40;
+}
+.chef .boxChef .nomChef:hover::before {
+  --scale:1;
 }
 
 .contact {
